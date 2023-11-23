@@ -11,9 +11,6 @@ Overlap = function(seq1, seq2){
   }
   return(max_overlap)
 }
-seq2 = 'CATGC'
-seq1 = 'CTAAGT'
-print(Overlap(seq1,seq2))
 
 
 OverlapMatrix = function(S){
@@ -29,8 +26,6 @@ OverlapMatrix = function(S){
   }
   return(overlap_matrix)
 }
-S = c('CATGC','CTAAGT','GCTA','TTCA','ATGCATC')
-overlapMat = (OverlapMatrix(S))
 
 
 GreedySuperstring = function(S){
